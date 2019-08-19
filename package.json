@@ -1,0 +1,48 @@
+{
+  "name": "@freedomsex/text-censor",
+  "version": "0.0.1",
+  "description": "Censor or highlight words.",
+  "main": "dist/Censor.js",
+  "browser": "dist/Censor.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "webpack -p --progress",
+    "test": "babel-node ./node_modules/.bin/jasmine --config=test/config/jasmine.json || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/freedomsex/text-censor"
+  },
+  "keywords": [
+    "censor",
+    "highlight",
+    "match"
+  ],
+  "author": {
+    "name": "Tebaly",
+    "email": "support@freedomsex.net",
+    "url": "https://freedomsex.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freedomsex/text-censor/issues"
+  },
+  "homepage": "https://github.com/freedomsex/text-censor",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-import-resolver-webpack": "^0.9.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "jasmine": "^3.1.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
