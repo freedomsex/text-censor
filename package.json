@@ -1,6 +1,6 @@
 {
   "name": "@freedomsex/text-censor",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Censor or highlight words.",
   "main": "dist/Censor.js",
   "browser": "dist/Censor.js",
@@ -43,6 +43,7 @@
     "eslint-plugin-node": "^6.0.1",
     "jasmine": "^3.1.0",
     "webpack": "^4.10.2",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.7",
+    "webpack-merge": "^4.2.1"
   }
 }
